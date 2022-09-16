@@ -19,9 +19,9 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/vadymmarkov/When", exact: "5.0.0"),
-        .package(url: "https://github.com/Quick/Quick.git", exact: "2.2.1"),
-        .package(url: "https://github.com/Quick/Nimble.git", exact: "8.0.9"),
+        .package(url: "https://github.com/denizeroglu/When.git", branch: "master"),
+        .package(url: "https://github.com/Quick/Quick.git", .upToNextMinor(from: "5.0.0")),
+        .package(url: "https://github.com/Quick/Nimble.git", .upToNextMinor(from: "10.0.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -36,7 +36,7 @@ let package = Package(
             dependencies: ["Malibu", "Quick", "Nimble"],
             path: "./Tests/MalibuTests",
             resources: [
-                .process("JSON")
+                .process("JSON"),
             ]
         ),
     ]

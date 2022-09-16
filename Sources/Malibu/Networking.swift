@@ -277,19 +277,18 @@ public extension Networking {
                     guard isLast else { return }
                     lastNetworkPromise.reject(error)
                 }
-                .always { [weak self] result in
+                .always { [weak self] (result: Result<Response, Error>) in
                     if isLast {
                         self?.reset(mode: currentMode)
                     }
 
-                    if let error = result.error, (error as NSError).isOffline {
+                    if case let .failure(failure) = result, (failure as NSError).isOffline {
                         return
                     }
 
                     self?.requestStorage.remove(capsule)
                 }
         }
-
         return lastNetworkPromise
     }
 }

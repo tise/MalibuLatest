@@ -1,12 +1,30 @@
 {
   "pins" : [
     {
+      "identity" : "cwlcatchexception",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mattgallagher/CwlCatchException.git",
+      "state" : {
+        "revision" : "35f9e770f54ce62dd8526470f14c6e137cef3eea",
+        "version" : "2.1.1"
+      }
+    },
+    {
+      "identity" : "cwlpreconditiontesting",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mattgallagher/CwlPreconditionTesting.git",
+      "state" : {
+        "revision" : "c21f7bab5ca8eee0a9998bbd17ca1d0eb45d4688",
+        "version" : "2.1.0"
+      }
+    },
+    {
       "identity" : "nimble",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Quick/Nimble.git",
       "state" : {
-        "revision" : "72f5a90d573f7f7d70aa6b8ad84b3e1e02eabb4d",
-        "version" : "8.0.9"
+        "revision" : "1f3bde57bde12f5e7b07909848c071e9b73d6edc",
+        "version" : "10.0.0"
       }
     },
     {
@@ -14,17 +32,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Quick/Quick.git",
       "state" : {
-        "revision" : "09b3becb37cb2163919a3842a4c5fa6ec7130792",
-        "version" : "2.2.1"
+        "revision" : "f9d519828bb03dfc8125467d8f7b93131951124c",
+        "version" : "5.0.1"
       }
     },
     {
       "identity" : "when",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/vadymmarkov/When",
+      "location" : "https://github.com/denizeroglu/When",
       "state" : {
-        "revision" : "f1a9b4cb4c04a29af47c3ae430a06370f99afd9d",
-        "version" : "5.0.0"
+        "branch" : "master",
+        "revision" : "b355a7f06ff746631c6c901676dfaf0802023d61"
       }
     }
   ],
