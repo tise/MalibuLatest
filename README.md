@@ -1,8 +1,5 @@
-![Malibu logo](https://raw.githubusercontent.com/vadymmarkov/Malibu/master/Images/cover.png)
-
-[![CI Status](http://img.shields.io/travis/vadymmarkov/Malibu.svg?style=flat)](https://travis-ci.org/vadymmarkov/Malibu)
+![Malibu logo](https://raw.githubusercontent.com/denizeroglu/Malibu/master/Images/cover.png)
 [![Version](https://img.shields.io/cocoapods/v/Malibu.svg?style=flat)](http://cocoadocs.org/docsets/Malibu)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Malibu.svg?style=flat)](http://cocoadocs.org/docsets/Malibu)
 [![Platform](https://img.shields.io/cocoapods/p/Malibu.svg?style=flat)](http://cocoadocs.org/docsets/Malibu)
 ![Swift](https://img.shields.io/badge/%20in-swift%204.0-orange.svg)
@@ -595,30 +592,34 @@ Malibu.logger.responseLogger = ResponseLogger.self
 
 ## Author
 
-Hyper Interaktiv AS, ios@hyper.no
+Updated by: Deniz Eroglu
+Original author: Hyper Interaktiv AS, ios@hyper.no
 
 ## Installation
 
-**Malibu** is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'Malibu'
-```
-
-**Malibu** is also available through [Carthage](https://github.com/Carthage/Carthage).
-To install just write into your Cartfile:
-
-```ruby
-github "vadymmarkov/Malibu"
-```
+**Malibu** is available through Swift Package Manager (SPM). To install
+<!--it, simply add the following line to your Podfile:-->
+<!---->
+<!--```ruby-->
+<!--pod 'Malibu'-->
+<!--```-->
+<!---->
+<!--**Malibu** is also available through [Carthage](https://github.com/Carthage/Carthage).-->
+<!--To install just write into your Cartfile:-->
+<!---->
+<!--```ruby-->
+<!--github "vadymmarkov/Malibu"-->
+<!--```-->
 
 **Malibu** can also be installed manually.
 Just *Download* and *drop* ```/Sources``` folder in your project.  
 
 ## Author
 
-Vadym Markov, markov.vadym@gmail.com
+
+Original author: Vadym Markov, markov.vadym@gmail.com
+SPM update: Deniz Eroglu, de.eroglu@gmail.com
+
 
 ## Credits
 
@@ -631,8 +632,8 @@ inspiration and to [When](https://github.com/vadymmarkov/When) for ***promises**
 
 ## Contributing
 
-Check the [CONTRIBUTING](https://github.com/vadymmarkov/Malibu/blob/master/CONTRIBUTING.md) file for more info.
+Check the [CONTRIBUTING](https://github.com/denizeroglu/Malibu/blob/master/CONTRIBUTING.md) file for more info.
 
 ## License
 
-**Malibu** is available under the MIT license. See the [LICENSE](https://github.com/vadymmarkov/Malibu/blob/master/LICENSE.md) file for more info.
+**Malibu** is available under the MIT license. See the [LICENSE](https://github.com/denizeroglu/Malibu/blob/master/LICENSE.md) file for more info.
