@@ -19,7 +19,7 @@ public final class MockProvider<R: RequestConvertible> {
     }
 }
 
-struct MockBehavior {
+public struct MockBehavior {
     let mock: Mock
     let delay: TimeInterval
 }
@@ -151,7 +151,7 @@ public extension Networking {
         queue.cancelAllOperations()
     }
 
-    internal func execute(_ request: Request, mockBehavior: MockBehavior? = nil) -> NetworkPromise {
+    func execute(_ request: Request, mockBehavior: MockBehavior? = nil) -> NetworkPromise {
         let middlewarePromise = Promise<Void>()
         let networkPromise = NetworkPromise()
 
