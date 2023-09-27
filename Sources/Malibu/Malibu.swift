@@ -4,7 +4,7 @@ import When
 // MARK: - Vars
 
 public var parameterEncoders = [ContentType: ParameterEncoding]()
-public let logger = Logger()
+public let logger = MalibuLogger()
 public let boundary = String(format: "Malibu%08x%08x", arc4random(), arc4random())
 
 let backfootSurfer = Networking<AnyEndpoint>()

@@ -6,7 +6,7 @@ public enum LogLevel {
     case none, error, info, verbose
 }
 
-public final class Logger {
+public final class MalibuLogger {
     /// Use `NSLog` instead of `print`
     public static var showOnDevice = false
     public var level: LogLevel = .none
@@ -110,7 +110,7 @@ public final class ResponseLogger: ResponseLogging {
 }
 
 private func logString(_ string: String) {
-    if Logger.showOnDevice {
+    if MalibuLogger.showOnDevice {
         NSLog(string)
     } else {
         print(string)
