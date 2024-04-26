@@ -2,7 +2,7 @@ import Foundation
 
 public final class QueryBuilder {
     public typealias Component = (String, String)
-    let escapingCharacters = ":#[]@!$&'()*,;="
+    let escapingCharacters = ":#[]@!$&'()*+,;="
 
     public init() {}
 
