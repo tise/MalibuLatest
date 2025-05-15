@@ -1,4 +1,4 @@
-![Malibu logo](https://raw.githubusercontent.com/denizeroglu/Malibu/master/Images/cover.png)
+![Malibu logo](https://raw.githubusercontent.com/tise/MalibuLatest/master/Images/cover.png)
 [![Version](https://img.shields.io/cocoapods/v/Malibu.svg?style=flat)](http://cocoadocs.org/docsets/Malibu)
 [![License](https://img.shields.io/cocoapods/l/Malibu.svg?style=flat)](http://cocoadocs.org/docsets/Malibu)
 [![Platform](https://img.shields.io/cocoapods/p/Malibu.svg?style=flat)](http://cocoadocs.org/docsets/Malibu)
@@ -632,7 +632,7 @@ inspiration and to [When](https://github.com/vadymmarkov/When) for ***promises**
 
 ## Contributing
 
-Check the [CONTRIBUTING](https://github.com/denizeroglu/Malibu/blob/master/CONTRIBUTING.md) file for more info.
+Check the [CONTRIBUTING](https://github.com/tise/MalibuLatest/blob/master/CONTRIBUTING.md) file for more info.
 
 ## License
 

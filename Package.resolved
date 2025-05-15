@@ -39,7 +39,7 @@
     {
       "identity" : "when",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/denizeroglu/When",
+      "location" : "https://github.com/tise/When.git",
       "state" : {
         "branch" : "master",
         "revision" : "b355a7f06ff746631c6c901676dfaf0802023d61"

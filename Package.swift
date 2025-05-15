@@ -19,7 +19,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/denizeroglu/When.git", branch: "master"),
+        .package(url: "https://github.com/tise/When.git", branch: "master"),
         .package(url: "https://github.com/Quick/Quick.git", .upToNextMinor(from: "5.0.0")),
         .package(url: "https://github.com/Quick/Nimble.git", .upToNextMinor(from: "10.0.0"))
     ],
